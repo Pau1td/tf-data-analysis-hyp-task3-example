@@ -5,7 +5,7 @@ from statsmodels.stats.proportion import proportions_ztest
 
 chat_id = 278913153 # Ваш chat ID, не меняйте название переменной
 
-def solution1(x: np.array, y: np.array) -> bool: # Одна или две выборке на входе, заполняется исходя из условия
+def solution(x: np.array, y: np.array) -> bool: # Одна или две выборке на входе, заполняется исходя из условия
 
     # Измените код этой функции
     # Это будет вашим решением
