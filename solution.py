@@ -19,8 +19,8 @@ def solution(x: np.array, y: np.array) -> bool: # Одна или две выб�
 
     #stat, pval = ttest_ind(x, y, equal_var=False, alternative=alternative)
     zstat, pvalue = ttest_ind(x, y, equal_var=False, alternative=alternative)
-    print('zstat=', zstat)
-    print('pvalue', pvalue)
+    #print('zstat=', zstat)
+    #print('pvalue', pvalue)
 
     #print('{0:0.3f}'.format(pval))
 
