@@ -24,7 +24,7 @@ def solution(x: np.array, y: np.array) -> bool: # Одна или две выб�
 
     #print('{0:0.3f}'.format(pval))
 
-    if ( pval > pval_tz) and ( zstat > 0 ):
+    if ( pval < 0.5 + pval_tz) and ( zstat > 0 ):
       return True
     else: 
       return False
