@@ -30,6 +30,8 @@ def solution(x: np.array, y: np.array) -> bool: # Одна или две выб�
       return False
 
 '''
+# 1 балл получил
+
 import pandas as pd
 import numpy as np
 from statsmodels.stats.weightstats import ztest
